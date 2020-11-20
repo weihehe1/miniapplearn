@@ -1,0 +1,107 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "386337",
+      "name": "叉",
+      "font_class": "cha",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "720964",
+      "name": "箭头",
+      "font_class": "xiazai6",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "791908",
+      "name": "箭头",
+      "font_class": "ai-arrow-down",
+      "unicode": "e658",
+      "unicode_decimal": 58968
+    },
+    {
+      "icon_id": "807964",
+      "name": "订单",
+      "font_class": "dingdan",
+      "unicode": "e62e",
+      "unicode_decimal": 58926
+    },
+    {
+      "icon_id": "1183130",
+      "name": "定位",
+      "font_class": "dingwei",
+      "unicode": "e675",
+      "unicode_decimal": 58997
+    },
+    {
+      "icon_id": "2674927",
+      "name": "箭头 上",
+      "font_class": "jiantoushang",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "4996801",
+      "name": "详情",
+      "font_class": "xiangqing",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "5334168",
+      "name": "箭头",
+      "font_class": "jiantou",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "6049954",
+      "name": "发货",
+      "font_class": "fahuo",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "7775077",
+      "name": "定位",
+      "font_class": "dingwei1",
+      "unicode": "e649",
+      "unicode_decimal": 58953
+    },
+    {
+      "icon_id": "8361814",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e6c9",
+      "unicode_decimal": 59081
+    },
+    {
+      "icon_id": "12097603",
+      "name": "确认",
+      "font_class": "queren",
+      "unicode": "e66e",
+      "unicode_decimal": 58990
+    },
+    {
+      "icon_id": "12685011",
+      "name": "详情",
+      "font_class": "icon_huabanfuben",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "13644417",
+      "name": "确认",
+      "font_class": "queren1",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    }
+  ]
+}

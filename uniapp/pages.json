@@ -1,0 +1,46 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/info/info",
+			"style": {
+				"navigationBarTitleText": "信息"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#C0C4CC", //未选中的菜单文字颜色
+		"selectedColor": "#fa436a", //选中时的菜单文字颜色
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff", //背景
+		"list": [{
+				"pagePath": "pages/index/index", //页面地址
+				// "iconPath": "static/logo.png", //未选中时的图片
+				// "selectedIconPath": "static/logo.png", //选中时的图片
+				"text": "首页" //菜单文字
+			},
+			{
+				"pagePath": "pages/info/info",
+				// "iconPath": "static/logo.png",
+				// "selectedIconPath": "static/logo.png",
+				"text": "订单"
+			},
+			{
+				"pagePath": "pages/info/info",
+				// "iconPath": "static/logo.png",
+				// "selectedIconPath": "static/logo.png",
+				"text": "我的"
+			}
+		]
+	}
+}

@@ -1,0 +1,1 @@
+<view class="content"><view data-event-opts="{{[['tap',[['openinfo',['$event']]]]]}}" class="open" bindtap="__e">index</view><view data-event-opts="{{[['tap',[['unload',['$event']]]]]}}" class="unload" bindtap="__e">图片</view><view data-event-opts="{{[['tap',[['getlocal',['$event']]]]]}}" class="localtion" bindtap="__e">当前位置</view></view>

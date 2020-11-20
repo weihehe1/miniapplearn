@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "信息",
+  "usingComponents": {
+    "van-tab": "/components/van-tab/van-tab"
+  }
+}

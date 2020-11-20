@@ -1,0 +1,12 @@
+
+.open,.localtion{
+	width: 10ups;
+	height: 10ups;
+	background-color: #007AFF
+}
+.unload{
+	width: 10ups;
+	height: 10ups;
+	background-color: #09BB07
+}
+

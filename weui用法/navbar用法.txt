@@ -1,0 +1,41 @@
+用法:
+https://www.cnblogs.com/jimz/p/8242407.html
+
+weUI weui-navbar 实现
+
+<div class="page">
+    <div class="page__bd" style="height: 100%;">
+        <div class="weui-tab">
+            <div class="weui-navbar">
+                <div href="#tab1" class="weui-navbar__item weui-bar__item_on">
+                    11111
+                </div>
+                <div href="#tab2" class="weui-navbar__item">
+                    22222
+                </div>
+                <div href="#tab3" class="weui-navbar__item">
+                    33333
+                </div>
+            </div>
+            <div class="weui-tab__panel">
+                <div id="tab1" class="weui-tab__content" style="display: block;">1111</div>
+                <div id="tab2" class="weui-tab__content">2222</div>
+                <div id="tab3" class="weui-tab__content">3333</div>
+            </div>
+        </div>
+    </div>
+</div>
+　　
+
+ 
+
+
+$(function(){
+    $('.weui-navbar__item').on('click', function () {
+        $(this).addClass('weui-bar__item_on').siblings('.weui-bar__item_on').removeClass('weui-bar__item_on');
+        $(jQuery(this).attr("href")).show().siblings('.weui-tab__content').hide();
+    });
+ 
+});
+
+jQuery(this).attr("href")：获取当前点击href里的内容

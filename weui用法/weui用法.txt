@@ -1,0 +1,102 @@
+用法：https://www.cnblogs.com/jing-zhe/p/11000971.html
+小程序weui官网：https://developers.weixin.qq.com/miniprogram/dev/extended/weui/
+
+1.下载weui
+
+　进入GitHub https://github.com/weui/weui-wxss/ 进入如下页面，点击红色框选下载程序代码
+
+
+
+ 
+
+ 
+
+ 
+
+　　解压后进入文件夹，图示路径下的weui.wxss就是我们所需要的weui库
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 2.引入weui
+
+　　打开微信开发者工具创建项目（这个就不在介绍了），目录如下
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 　　创建好项目，接下来要做的就是将刚才下载解压的weui文件夹里的weui.wxss，直接复制粘贴放在项目根目录下即可
+
+
+
+ 
+
+ 
+
+　　到此引入步骤还没结束，要在项目中使用，还需要在全局app.wxss中加入@import "weui.wxss"，至此完成引入
+
+
+
+ 
+
+ 
+
+ 3.使用weui
+
+ 
+
+　　从GitHub上下载的weui文件夹里除了我们要使用的weui.wxss文件，还有一个很重要的文件夹，那就是example文件
+
+
+
+ 
+
+ 
+
+ 
+
+ 
+
+　　直接将该文件扔进vscode里，我们就可以看到各个组件的代码。微信小程序weui网站 https://weui.io/ 上有小程序weui的样式展示，当然我们也可以直接进weui的小程序手机上查看weui的样式，然后根据需求来选择组件的使用，但是这里都没有介绍weui具体的使用，但是example文件夹里有。
+
+ 
+
+
+
+ 
+
+ 
+
+　　上图所示就是weui使用代码，这里我们随意挑选一个模块badge示例，对应的badge.wxml的代码其实就是weui的各个badge徽章标记的样式，我们直接将badge.wxml中的代码复制，粘贴到小程序项目中的新建页面test.wxml中看看。
+
+
+
+ 
+
+ 
+
+ 
+
+ 　　保存一下，我们就可以在模拟器中看到如下效果
+
+
+
+ 
+
+ 　　
+
+　　到这里我们就已经完成了weui的引入和使用了，接下来只需要根据需求筛选就好
